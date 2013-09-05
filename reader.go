@@ -3,8 +3,14 @@ package reader
 import (
     "encoding/xml"
     "errors"
+    "os"
     "regexp"
     "time"
+)
+
+const (
+    MemoFile     = ".last_downloaded"
+    MemoFilePath = "./" + MemoFile
 )
 
 type Item struct {
@@ -39,6 +45,20 @@ func ParseRSS(data []byte, since time.Time) ([]Item, error) {
         list = append(list, item)
     }
     return list, nil
+}
+
+func Memonize(date time.Time) error {
+    f, err := os.OpenFile(MemoFilePath, os.O_WRONLY|os.O_CREATE, 0644)
+    if err != nil {
+        return err
+    }
+    defer f.Close()
+    _, werr := f.WriteString(date.Format(time.RFC3339Nano))
+    if werr != nil {
+        return werr
+    }
+
+    return nil
 }
 
 func extractImageUrl(s string) (string, error) {

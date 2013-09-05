@@ -3,6 +3,7 @@ package reader
 import (
     "testing"
     "io/ioutil"
+    "os"
     "time"
 )
 
@@ -36,6 +37,26 @@ func TestParseRSS(t *testing.T) {
     if len(itemList) != 11 {
         t.Fatal("Invalid parse items")
     }
+}
+
+func TestMemonize(t *testing.T) {
+    date := time.Now()
+    err := Memonize(date)
+    if err != nil {
+        t.Fatal(err)
+    }
+    cont, err := ioutil.ReadFile(MemoFilePath)
+    if err != nil {
+        t.Fatal(err)
+    }
+    rdate, rerr := time.Parse(time.RFC3339Nano, string(cont))
+    if rerr != nil {
+        t.Fatal(rerr)
+    }
+    if !rdate.Equal(date) {
+        t.Fatal(rdate, "is not equal", date)
+    }
+    os.Remove(MemoFilePath)
 }
 
 func TestExtractImageUrl(t *testing.T) {
