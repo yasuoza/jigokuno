@@ -3,6 +3,7 @@ package reader
 import (
     "encoding/xml"
     "errors"
+    "io/ioutil"
     "os"
     "regexp"
     "time"
@@ -60,6 +61,21 @@ func Memonize(date time.Time) error {
     return nil
 }
 
+func LoadLastDownloadedTime() (time.Time, error) {
+    if _, err := os.Stat(MemoFilePath); os.IsNotExist(err) {
+        return time.Unix(0, 0), nil
+    }
+    str, err := ioutil.ReadFile(MemoFilePath)
+    if err != nil {
+        return time.Unix(0, 0), err
+    }
+    date, rerr := time.Parse(time.RFC3339Nano, string(str))
+    if rerr != nil {
+        return time.Unix(0, 0), rerr
+    }
+    return date, rerr
+}
+
 func extractImageUrl(s string) (string, error) {
     re := regexp.MustCompile(`<img\ssrc="([^"]+)"`)
     caps := re.FindStringSubmatch(s)
@@ -68,3 +84,4 @@ func extractImageUrl(s string) (string, error) {
     }
     return caps[1], nil
 }
+
