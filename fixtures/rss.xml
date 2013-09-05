@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+    xml:lang="ja">
+
+    <channel rdf:about="http://jigokuno.com/?mode=rss">
+    <title>地獄のミサワの「女に惚れさす名言集」</title>
+    <link>http://jigokuno.com/</link>
+    <description>この世には一言で女性を口説き落としてしまう名言が存在する。</description>
+    <dc:language>ja</dc:language>
+    <admin:generatorAgent rdf:resource="http://jugem.jp/?v=1.0"/>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1251" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1250" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1249" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1248" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1247" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1246" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1245" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1244" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1243" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1242" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1241" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1240" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1239" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1238" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1237" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1236" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1235" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1234" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1233" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1232" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1231" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1230" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1229" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1228" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1227" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1226" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1225" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1224" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1223" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1222" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1221" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1220" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1219" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1218" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1217" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1216" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1215" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1214" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1213" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1212" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1211" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1210" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1209" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1208" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1207" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1206" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1205" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1204" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1203" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1202" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1201" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1200" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1199" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1198" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1197" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1196" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1195" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1194" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1193" />
+        <rdf:li rdf:resource="http://jigokuno.com/?eid=1192" />
+      </rdf:Seq>
+    </items>
+    </channel>
+
+  <item rdf:about="http://jigokuno.com/?eid=1251">
+    <link>http://jigokuno.com/?eid=1251</link>
+    <title>惚れさせ１２１８ 「僕はそういうのゆるい方なので」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130905_758371.gif" alt="渋谷の話したい人居ますか？居たら自由に話してもらってもいいですよ" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-09-04T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1250">
+    <link>http://jigokuno.com/?eid=1250</link>
+    <title>惚れさせ１２１７ 「御じゃない」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130903_757132.gif" alt="" class="pict" height="320" width="240">
+]]></content:encoded>
+    <dc:subject>健二(33)</dc:subject>
+    <dc:date>2013-09-03T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1249">
+    <link>http://jigokuno.com/?eid=1249</link>
+    <title>惚れさせ１２１６ 「戦いの後」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130902_755906.gif" alt="へへ…お前の…拳…御の字、だったぜ…！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>健二(33)</dc:subject>
+    <dc:date>2013-09-02T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1248">
+    <link>http://jigokuno.com/?eid=1248</link>
+    <title>惚れさせ１２１５ 「一人でかっこつけるもんやないで…」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130830_750774.gif" alt="お前ら…！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>masa(34)</dc:subject>
+    <dc:date>2013-08-30T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1247">
+    <link>http://jigokuno.com/?eid=1247</link>
+    <title>惚れさせ１２１４ 「あいつ…電車を止めようとしてやがる！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130829_750334.gif" alt="出勤してたまるかー！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>masa(34)</dc:subject>
+    <dc:date>2013-08-29T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1246">
+    <link>http://jigokuno.com/?eid=1246</link>
+    <title>惚れさせ１２１３ 「エロいこと考えたら海流が変わります」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130828_748506.gif" alt="あ…今とうたつしま…したはいしました！ぼくのちんちんが海底２万マイルに到達しました！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>ちんちんでか男(30)</dc:subject>
+    <dc:date>2013-08-28T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1245">
+    <link>http://jigokuno.com/?eid=1245</link>
+    <title>惚れさせ１２１２ 「分かってないんだからな〜！さ〜！はぁ〜！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130827_747159.gif" alt="あの店は飲みに行く店じゃないって〜！あの店は大将と喋りに行くみ〜せっ！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>小松っち(24)</dc:subject>
+    <dc:date>2013-08-27T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1244">
+    <link>http://jigokuno.com/?eid=1244</link>
+    <title>惚れさせ１２１１ 「知ってっか？」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130826_744968.gif" alt="シリコンバレーって渋谷じゃないんだぜ！キモいよなー！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-08-26T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1243">
+    <link>http://jigokuno.com/?eid=1243</link>
+    <title>惚れさせ１２１０ 「これも浮気になんのかな？」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130823_740494.gif" alt="やっべー今２人居る俺のことをいい感じに呼び捨てにする女子" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>4組の関口(18)</dc:subject>
+    <dc:date>2013-08-23T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1242">
+    <link>http://jigokuno.com/?eid=1242</link>
+    <title>惚れさせ１２０９ 「堂々」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130822_739435.gif" alt="先生わりぃ…うんこだ" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>玉木宏(12)</dc:subject>
+    <dc:date>2013-08-22T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1241">
+    <link>http://jigokuno.com/?eid=1241</link>
+    <title>惚れさせ１２０８ 「餓狼」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130822_737663.gif" alt="さっきからずっと私の事を突き殺そうとしているのは実の娘ですし私の影はオオカミっぽいのです" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>餓狼(50)</dc:subject>
+    <dc:date>2013-08-21T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1240">
+    <link>http://jigokuno.com/?eid=1240</link>
+    <title>惚れさせ１２０７ 「水分は休憩時間にちゃんと取ることー！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130820_736429.gif" alt="熱中症か…？バカヤロー！ここを舐めとけー！普段からこのゴムのとこを舐めて塩分をとっとけー！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>なかじ(19)</dc:subject>
+    <dc:date>2013-08-20T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1239">
+    <link>http://jigokuno.com/?eid=1239</link>
+    <title>惚れさせ１２０６ 「右側全部かまいたち」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130819_734821.gif" alt="あの頃の俺とはもう違うんだ" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>かまいたち(300)</dc:subject>
+    <dc:date>2013-08-19T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1238">
+    <link>http://jigokuno.com/?eid=1238</link>
+    <title>惚れさせ１２０５ 「読者会社員」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130816_730654.gif" alt="あっじゃあ読シャやられてるんですか？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>コウヘイ(26)</dc:subject>
+    <dc:date>2013-08-16T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1237">
+    <link>http://jigokuno.com/?eid=1237</link>
+    <title>惚れさせ１２０４ 「だからまあ…向こうも相当意識してるんじゃねえかな？」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130815_729282.gif" alt="あああいつ？あいつなら休み時間に俺の席に座ってたことあるけど？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>4組の関口(18)</dc:subject>
+    <dc:date>2013-08-15T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1236">
+    <link>http://jigokuno.com/?eid=1236</link>
+    <title>惚れさせ１２０３ 「店主より先に」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130814_728234.gif" alt="お客さんごめんね〜今日はもうコレなんだわ〜" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>小松っち(24)</dc:subject>
+    <dc:date>2013-08-14T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1235">
+    <link>http://jigokuno.com/?eid=1235</link>
+    <title>惚れさせ１２０２ 「もういい！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130813_726345.gif" alt="戻れ！出身が渋谷に近くない奴(駄ゲボ)！" class="pict" height="320" width="240">
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-08-13T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1234">
+    <link>http://jigokuno.com/?eid=1234</link>
+    <title>惚れさせ１２０１ 「なるほど…！それなら追い越すのも自然だ…！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130812_725651.gif" alt="下校中に女の集団を追い越す時俺は確実になにかに遅れそうな感じを出すぜ" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>4組の関口(18)</dc:subject>
+    <dc:date>2013-08-12T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1233">
+    <link>http://jigokuno.com/?eid=1233</link>
+    <title>惚れさせ１２００ 「取りに帰ろうかな？」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130809_721039.gif" alt="バイク忘れた" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>吾郎(16)</dc:subject>
+    <dc:date>2013-08-09T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1232">
+    <link>http://jigokuno.com/?eid=1232</link>
+    <title>惚れさせ１１９９ 「さあ働け！働くがいい！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130809_720342.gif" alt="社会人の課金組が束になってかかってこようと親の金で課金している俺には手も足も出まい！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>ナイト(25)</dc:subject>
+    <dc:date>2013-08-08T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1231">
+    <link>http://jigokuno.com/?eid=1231</link>
+    <title>惚れさせ１１９８ 「どんどん俺を踏み台にしていけよ」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130807_718632.gif" alt="随分成長したな俺が無断欠勤してる間に" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>masa(34)</dc:subject>
+    <dc:date>2013-08-07T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1230">
+    <link>http://jigokuno.com/?eid=1230</link>
+    <title>惚れさせ１１９７ 「渋谷は人を成長させるのだ　渋谷は尊い」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130806_717353.gif" alt="俺さ出身が渋谷に近くない奴らを辞書でぶん殴るのやめたんだ" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-08-06T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1229">
+    <link>http://jigokuno.com/?eid=1229</link>
+    <title>惚れさせ１１９６ 「世界は丸かったのか…」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130805_715855.gif" alt="渋谷の外って崖になってる訳じゃなかったのか…" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-08-05T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1228">
+    <link>http://jigokuno.com/?eid=1228</link>
+    <title>惚れさせ１１９５ 「ちょっとウケてくれるかもしんないだろー！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130802_711809.gif" alt="バカヤロー！女子が近くに居る時はちょっと大きめな声でおもしろい事言えよー！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>4組の関口(18)</dc:subject>
+    <dc:date>2013-08-02T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1227">
+    <link>http://jigokuno.com/?eid=1227</link>
+    <title>惚れさせ１１９４ 「餓狼」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130801_709959.gif" alt="" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>餓狼(50)</dc:subject>
+    <dc:date>2013-08-01T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1226">
+    <link>http://jigokuno.com/?eid=1226</link>
+    <title>惚れさせ１１９３ 「餓狼」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130731_708604.gif" alt="家族から無視されていますが影がオオカミっぽいです" class="pict" height="320" width="240">
+]]></content:encoded>
+    <dc:subject>餓狼(50)</dc:subject>
+    <dc:date>2013-07-31T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1225">
+    <link>http://jigokuno.com/?eid=1225</link>
+    <title>惚れさせ１１９２ 「俺？俺はほら…コレ」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130730_707528.gif" alt="あっお前、切符？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>玉木宏(12)</dc:subject>
+    <dc:date>2013-07-30T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1224">
+    <link>http://jigokuno.com/?eid=1224</link>
+    <title>惚れさせ１１９１ 「棒倒し」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130729_706183.gif" alt="かつて同じ教室で笑いあった仲間達を蹴散らし踏み越え、そうして倒そうとしているのは悪徳企業か？既得権益か？…いや違う、棒だ棒だぞ…？ハハハハッ！笑えよ！笑えるだろ！俺達の友情を壊したのは「棒」だぞ！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>なかじ(19)</dc:subject>
+    <dc:date>2013-07-29T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1223">
+    <link>http://jigokuno.com/?eid=1223</link>
+    <title>惚れさせ１１９０ 「俺さ」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130726_701461.gif" alt="最近密猟してんだ" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>吾郎(16)</dc:subject>
+    <dc:date>2013-07-26T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1222">
+    <link>http://jigokuno.com/?eid=1222</link>
+    <title>惚れさせ１１８９ 「やっぱり渋谷は最高だー！最高なのは渋谷しかないー！もっともっと渋谷と一緒に居たいー！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130725_700284.gif" alt="朝の渋谷のくっせえ空気(やわらかい風)が傷を癒していく…" class="pict" height="320" width="240">
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-07-25T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1221">
+    <link>http://jigokuno.com/?eid=1221</link>
+    <title>惚れさせ１１８８ 「しまったー！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130724_698909.gif" alt="ウワー！埼玉(ウンコ集め大学)だー！50箇所から出血するー！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-07-24T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1220">
+    <link>http://jigokuno.com/?eid=1220</link>
+    <title>惚れさせ１１８７ 「電車で一本のところから外れたからだー！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130723_697790.gif" alt="ウワー！渋谷に近くないからだー！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-07-23T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1219">
+    <link>http://jigokuno.com/?eid=1219</link>
+    <title>惚れさせ１１８６ 「なんて生き物だろう…？」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130722_696507.gif" alt="あっ…バタフライスツールみたい…" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>コウヘイ(26)</dc:subject>
+    <dc:date>2013-07-22T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1218">
+    <link>http://jigokuno.com/?eid=1218</link>
+    <title>惚れさせ１１８５ 「国王とか見るとついやっちゃうけど」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130719_690854.gif" alt="要人を投げまくるのあんま良くないかなぁ？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>鬼-ONI-(31)</dc:subject>
+    <dc:date>2013-07-19T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1217">
+    <link>http://jigokuno.com/?eid=1217</link>
+    <title>惚れさせ１１８４ 「鬼-ONI-」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130718_690347.gif" alt="俺は強い" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>鬼-ONI-(31)</dc:subject>
+    <dc:date>2013-07-18T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1216">
+    <link>http://jigokuno.com/?eid=1216</link>
+    <title>惚れさせ１１８３ 「女子を意識してるってバレたら終わりだぜ…？」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130717_689189.gif" alt="女子の集団に遭遇した時は意識してると思われるとやべーからあんま見ないようにするけど全く見ないのも逆に意識してるみたいだからちょっと見るぜ…" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>4組の関口(18)</dc:subject>
+    <dc:date>2013-07-17T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1215">
+    <link>http://jigokuno.com/?eid=1215</link>
+    <title>惚れさせ１１８２ 「悪気は無いんだけど…」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130716_687446.gif" alt="わりー…俺出身が渋谷に近くない奴見るとついタン吐きかけちゃうんだ…" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-07-16T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1214">
+    <link>http://jigokuno.com/?eid=1214</link>
+    <title>惚れさせ１１８１ 「確認するけど」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130715_686422.gif" alt="えっと…？それが君の最善手？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>キング(20)</dc:subject>
+    <dc:date>2013-07-15T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1213">
+    <link>http://jigokuno.com/?eid=1213</link>
+    <title>惚れさせ１１８０ 「出会い頭」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130712_681288.gif" alt="出会い頭" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>KAZ(32)</dc:subject>
+    <dc:date>2013-07-12T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1212">
+    <link>http://jigokuno.com/?eid=1212</link>
+    <title>惚れさせ１１７９ 「風が気持ちいいな」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130711_680618.gif" alt="お前はよくやってるよ俺なんて今日机無くなってたぞ" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>masa(34)</dc:subject>
+    <dc:date>2013-07-11T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1211">
+    <link>http://jigokuno.com/?eid=1211</link>
+    <title>惚れさせ１１７８ 「関ちゃんのテクやべえなー…」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130710_678849.gif" alt="昨日あの女子の前でトラブルに巻き込まれた風なところを見せたからな…あいつもう俺に惚れかけてるぜ" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>4組の関口(18)</dc:subject>
+    <dc:date>2013-07-10T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1210">
+    <link>http://jigokuno.com/?eid=1210</link>
+    <title>惚れさせ１１７７ 「どんな所に住んでるんだ…」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130709_677086.gif" alt="おい…お前ここ、海見えねーのか…？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>しょうへい(29)</dc:subject>
+    <dc:date>2013-07-09T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1209">
+    <link>http://jigokuno.com/?eid=1209</link>
+    <title>惚れさせ１１７６ 「これ、持ってけよ」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130708_675834.gif" alt="出身が渋谷から遠い(クソキモ田舎野郎)だと仕事もあんまり無いだろ…？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-07-08T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1208">
+    <link>http://jigokuno.com/?eid=1208</link>
+    <title>惚れさせ１１７５ 「マジ？」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130705_671436.gif" alt="女足りなくねー？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>シャモる(17)</dc:subject>
+    <dc:date>2013-07-05T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1207">
+    <link>http://jigokuno.com/?eid=1207</link>
+    <title>惚れさせ１１７４ 「もっと頼ってくれていいんだぜ」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130704_669908.gif" alt="無理すんなよお前は出身が渋谷と近くもなんともない只のうんこ野郎なんだからさ" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-07-04T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1206">
+    <link>http://jigokuno.com/?eid=1206</link>
+    <title>惚れさせ１１７３ 「出身」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130703_667882.gif" alt="おいちょっと待て…俺は出身が渋谷に近い" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>TATTSU(22)</dc:subject>
+    <dc:date>2013-07-03T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1205">
+    <link>http://jigokuno.com/?eid=1205</link>
+    <title>惚れさせ１１７２ 「いっつもやってる」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130702_666730.gif" alt="…普通" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>玉木宏(12)</dc:subject>
+    <dc:date>2013-07-02T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1204">
+    <link>http://jigokuno.com/?eid=1204</link>
+    <title>惚れさせ１１７１ 「解かるか？」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130701_665661.gif" alt="じゃあ言うけど…お前との会話の中にひとつ、罠を仕掛けた" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>キング(20)</dc:subject>
+    <dc:date>2013-07-01T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1203">
+    <link>http://jigokuno.com/?eid=1203</link>
+    <title>惚れさせ１１７０ 「切り札」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130628_659697.gif" alt="シャッ…シャッ…シャッ…スッ…ここで、俺というカードを切るか？" class="pict" height="320" width="240"><br><p><a href="http://jigokuno.com/?eid=1203">続きを読む &gt;&gt;</a></p>
+]]></content:encoded>
+    <dc:subject>のり(29)</dc:subject>
+    <dc:date>2013-06-28T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1202">
+    <link>http://jigokuno.com/?eid=1202</link>
+    <title>惚れさせ１１６９ 「すっ」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130627_658079.gif" alt="お前ら動く…？それとも動くのは…俺ら？" class="pict" height="320" width="240"><br><p><a href="http://jigokuno.com/?eid=1202">続きを読む &gt;&gt;</a></p>
+]]></content:encoded>
+    <dc:subject>のり(29)</dc:subject>
+    <dc:date>2013-06-27T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1201">
+    <link>http://jigokuno.com/?eid=1201</link>
+    <title>惚れさせ１１６８ 「ダメみたい」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130626_656924.gif" alt="ちょっと今バタフライスツールみたい" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>コウヘイ(26)</dc:subject>
+    <dc:date>2013-06-26T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1200">
+    <link>http://jigokuno.com/?eid=1200</link>
+    <title>惚れさせ１１６７ 「Ｘ」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130625_656458.gif" alt="OPQRSTU…VWバタフライスツールYZ…あれ？ABCD…" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>コウヘイ(26)</dc:subject>
+    <dc:date>2013-06-25T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1199">
+    <link>http://jigokuno.com/?eid=1199</link>
+    <title>惚れさせ１１６６ 「すっ」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130624_653563.gif" alt="俺ら、動こうか？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>のり(29)</dc:subject>
+    <dc:date>2013-06-24T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1198">
+    <link>http://jigokuno.com/?eid=1198</link>
+    <title>惚れさせ１１６５ 「今なら許さざるを得ない雰囲気を作れる…！」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130621_648971.gif" alt="吹いてきたな…謝罪風が…！" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>masa(34)</dc:subject>
+    <dc:date>2013-06-21T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1197">
+    <link>http://jigokuno.com/?eid=1197</link>
+    <title>惚れさせ１１６４ 「だから…これが…最後のレースだ…」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130620_647364.gif" alt="俺さ…運動会終わったらスプーン競争やめるんだ" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>なかじ(19)</dc:subject>
+    <dc:date>2013-06-20T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1196">
+    <link>http://jigokuno.com/?eid=1196</link>
+    <title>惚れさせ１１６３ 「銃の声」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130619_645692.gif" alt="………バーン" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>零(33)</dc:subject>
+    <dc:date>2013-06-19T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1195">
+    <link>http://jigokuno.com/?eid=1195</link>
+    <title>惚れさせ１１６２ 「まあでもさ」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130618_644215.gif" alt="まあでも俺らみたいに馬鹿な奴らが少しくらい居てもいんじゃね？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>シャモる(17)</dc:subject>
+    <dc:date>2013-06-18T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1194">
+    <link>http://jigokuno.com/?eid=1194</link>
+    <title>惚れさせ１１６１ 「海」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130617_642667.gif" alt="あ〜たまに海見ないとダメだわぁ〜" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>しょうへい(29)</dc:subject>
+    <dc:date>2013-06-17T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1193">
+    <link>http://jigokuno.com/?eid=1193</link>
+    <title>惚れさせ１１６０ 「舐めてっと俺、怪我すっけど？」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130614_637493.gif" alt="マジ俺キレると訳分かんなくなっちまうかんねこの前もマジ記憶飛んでっから気づいた時にはマジ俺ボコボコにされてっから家ですげー泣いてっから" class="pict" height="320" width="240">
+]]></content:encoded>
+    <dc:subject>ショップ店員(29)</dc:subject>
+    <dc:date>2013-06-14T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+  <item rdf:about="http://jigokuno.com/?eid=1192">
+    <link>http://jigokuno.com/?eid=1192</link>
+    <title>惚れさせ１１５９ 「急に」</title>
+    <description></description>
+<content:encoded><![CDATA[
+<img src="http://jigokuno.img.jugem.jp/20130613_635817.gif" alt="え？じゃあ吉田さん家も急に外国の図鑑が置いてあるんですか？" class="pict" height="320" width="240"><br>
+]]></content:encoded>
+    <dc:subject>コウヘイ(26)</dc:subject>
+    <dc:date>2013-06-13T12:00:00+09:00</dc:date>
+    <dc:creator>地獄のミサワ</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>地獄のミサワ</dc:rights>
+  </item>
+
+</rdf:RDF>
