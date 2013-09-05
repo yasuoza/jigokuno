@@ -57,7 +57,6 @@ func Memonize(date time.Time) error {
     if werr != nil {
         return werr
     }
-
     return nil
 }
 
@@ -67,6 +66,5 @@ func extractImageUrl(s string) (string, error) {
     if len(caps) == 0 {
         return "", errors.New("Can't parse argument string")
     }
-
     return caps[1], nil
 }
