@@ -4,6 +4,7 @@ import (
     "encoding/xml"
     "errors"
     "regexp"
+    "time"
 )
 
 type Item struct {
@@ -11,6 +12,7 @@ type Item struct {
     Title string `xml:"title"`
     Content string `xml:"encoded"`
     Subject string `xml:"subject"`
+    Date time.Time `xml:"date"`
     ImageUrl string
 }
 
@@ -19,19 +21,24 @@ type Result struct {
     Title string `xml:"channel>title"`
 }
 
-func ParseRSS(data []byte) ([]Item, error) {
+func ParseRSS(data []byte, since time.Time) ([]Item, error) {
     var res Result
     xml.Unmarshal(data, &res)
+
+    var list []Item
     for _, item := range res.ItemList {
+        if !item.Date.After(since) {
+            continue
+        }
         imageUrl, err := extractImageUrl(item.Content)
         if err != nil {
             return nil, errors.New("Failed parse")
             continue;
         }
         item.ImageUrl = imageUrl
+        list = append(list, item)
     }
-
-    return res.ItemList, nil
+    return list, nil
 }
 
 func extractImageUrl(s string) (string, error) {
