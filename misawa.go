@@ -1,7 +1,7 @@
 package main
 
 import (
-    "./misawa"
+    "github.com/yasuoza/misawa.go/misawa"
     "io/ioutil"
     "log"
     "net/http"
