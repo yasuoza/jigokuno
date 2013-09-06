@@ -7,6 +7,7 @@ import (
     "net/http"
     "time"
     "flag"
+    "os"
 )
 
 const (
@@ -21,6 +22,16 @@ var (
 
 func main() {
     flag.Parse()
+    if !*force {
+        d, err := os.Stat(*dest)
+        if err != nil || os.IsNotExist(err) {
+            log.Fatal(*dest, " is not exist")
+        }
+        if !d.IsDir() {
+            log.Fatal(*dest, " is not directory")
+        }
+    }
+
     resp, err := http.Get(RSS_URL)
     if err != nil {
         log.Fatal(err)
