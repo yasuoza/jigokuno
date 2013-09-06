@@ -1,7 +1,7 @@
 package main
 
 import (
-    "github.com/yasuoza/jigokuno/misawa"
+    "github.com/yasuoza/jigokuno/jigokuno"
     "io/ioutil"
     "log"
     "net/http"
@@ -46,13 +46,13 @@ func main() {
     if *all {
         since = time.Unix(0, 0)
     } else {
-        load, err := misawa.LoadLastDownloadedTime()
+        load, err := jigokuno.LoadLastDownloadedTime()
         if err != nil {
             log.Println("LoadLastDownloadedTime failed. Use time.Unix(0, 0)")
         }
         since = load
     }
-    items, err := misawa.ParseRSS(rss, since)
+    items, err := jigokuno.ParseRSS(rss, since)
     if err != nil {
         log.Fatal(err)
     }
@@ -60,8 +60,8 @@ func main() {
     mlen := len(items)
     done := make(chan bool, mlen)
     for i, m := range items {
-        go func(gi int, gm misawa.Misawa) {
-            err := misawa.Download(gm, *dest)
+        go func(gi int, gm jigokuno.Misawa) {
+            err := jigokuno.Download(gm, *dest)
             if err != nil {
                 log.Println("Failed download ", gm.Title)
             }
@@ -72,7 +72,7 @@ func main() {
         <-done
     }
     if len(items) > 0 {
-        misawa.Memonize(items[0].Date)
+        jigokuno.Memonize(items[0].Date)
     }
 
     log.Println("Downloaded", mlen, "misawa(s)")

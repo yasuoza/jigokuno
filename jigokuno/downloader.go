@@ -1,4 +1,4 @@
-package misawa
+package jigokuno
 
 import (
     "errors"
