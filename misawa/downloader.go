@@ -7,10 +7,11 @@ import (
     "net/http"
     "os"
     "regexp"
+    "path/filepath"
 )
 
 func Download(m Misawa, rootdir string) error {
-    dir := rootdir + m.Subject
+    dir := filepath.Join(rootdir, m.Subject)
     err := os.MkdirAll(dir, 0755)
     if err != nil {
         return err
