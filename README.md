@@ -3,6 +3,8 @@ jigokuno
 
 Download latest misawa images based on jigokuno [rss](http://jigokuno.com/?mode=rss).
 
+![](http://jigokuno.img.jugem.jp/20100218_1708335.gif)
+
 Install
 ------
 
