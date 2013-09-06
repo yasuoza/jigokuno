@@ -1,4 +1,4 @@
-misawa.go
+jigokuno
 =========
 
 Download latest misawa images based on jigokuno [rss](http://jigokuno.com/?mode=rss).
@@ -7,15 +7,15 @@ Install
 ------
 
 ```
-$ go get github.com/yasuoza/misawa.go
-$ go install github.com/yasuoza/misawa.go
+$ go get github.com/yasuoza/jigokuno
+$ go install github.com/yasuoza/jigokuno
 ```
 
 Usage
 -----
 
 ```
-$ misawa -dest=./pics
+$ jigokuno -dest=./pics
 ```
 
 Options
