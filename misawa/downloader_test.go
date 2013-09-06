@@ -1,9 +1,8 @@
-package downloader
+package misawa
 
 import (
     "io/ioutil"
     "testing"
-    "../reader"
     "os"
     "time"
 )
@@ -20,17 +19,18 @@ func TestExtractFileName(t *testing.T) {
 }
 
 func TestDownload(t *testing.T) {
-    xml, err := ioutil.ReadFile("../reader/fixtures/rss.xml")
+    xml, err := ioutil.ReadFile("./fixtures/rss.xml")
     if err != nil {
         panic(err)
     }
 
-    itemList, err := reader.ParseRSS(xml, time.Unix(0, 0))
+    itemList, err := ParseRSS(xml, time.Unix(0, 0))
     if err != nil {
         t.Fatal("ParseRSS failed")
     }
-    derr := Download(itemList[0])
-    defer os.RemoveAll("./" + itemList[0].Subject)
+    tmpDir := os.TempDir()
+    defer os.RemoveAll(tmpDir + "/" + itemList[0].Subject)
+    derr := Download(itemList[0], tmpDir)
     if derr != nil {
         t.Fatal(derr)
     }

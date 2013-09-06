@@ -1,4 +1,4 @@
-package reader
+package misawa
 
 import (
     "encoding/xml"
@@ -14,7 +14,7 @@ const (
     MemoFilePath = "./" + MemoFile
 )
 
-type Item struct {
+type Misawa struct {
     Link string `xml:"link"`
     Title string `xml:"title"`
     Content string `xml:"encoded"`
@@ -24,26 +24,26 @@ type Item struct {
 }
 
 type Result struct {
-    ItemList []Item `xml:"item"`
+    MisawaList []Misawa `xml:"item"`
     Title string `xml:"channel>title"`
 }
 
-func ParseRSS(data []byte, since time.Time) ([]Item, error) {
+func ParseRSS(data []byte, since time.Time) ([]Misawa, error) {
     var res Result
     xml.Unmarshal(data, &res)
 
-    var list []Item
-    for _, item := range res.ItemList {
-        if !item.Date.After(since) {
+    var list []Misawa
+    for _, m := range res.MisawaList {
+        if !m.Date.After(since) {
             continue
         }
-        imageUrl, err := extractImageUrl(item.Content)
+        imageUrl, err := extractImageUrl(m.Content)
         if err != nil {
             return nil, errors.New("Failed parse")
             continue;
         }
-        item.ImageUrl = imageUrl
-        list = append(list, item)
+        m.ImageUrl = imageUrl
+        list = append(list, m)
     }
     return list, nil
 }

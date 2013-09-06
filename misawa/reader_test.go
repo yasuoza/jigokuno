@@ -1,4 +1,4 @@
-package reader
+package misawa
 
 import (
     "testing"
@@ -13,28 +13,28 @@ func TestParseRSS(t *testing.T) {
         panic(err)
     }
 
-    itemList, err := ParseRSS(xml, time.Unix(0, 0))
+    misawaList, err := ParseRSS(xml, time.Unix(0, 0))
     if err != nil {
         t.Fatal("ParseRSS failed")
     }
-    if len(itemList) != 60 {
+    if len(misawaList) != 60 {
         t.Fatal("Invalid parse items")
     }
 
-    itemList, err = ParseRSS(xml, time.Now())
+    misawaList, err = ParseRSS(xml, time.Now())
     if err != nil {
         t.Fatal("ParseRSS failed")
     }
-    if len(itemList) != 0 {
+    if len(misawaList) != 0 {
         t.Fatal("Invalid parse items")
     }
 
     since, _ := time.Parse(time.RFC3339, "2013-08-20T12:00:00+09:00")
-    itemList, err = ParseRSS(xml, since)
+    misawaList, err = ParseRSS(xml, since)
     if err != nil {
         t.Fatal("ParseRSS failed")
     }
-    if len(itemList) != 11 {
+    if len(misawaList) != 11 {
         t.Fatal("Invalid parse items")
     }
 }

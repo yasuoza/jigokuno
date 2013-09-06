@@ -1,7 +1,6 @@
-package downloader
+package misawa
 
 import (
-    "../reader"
     "errors"
     "io"
     "log"
@@ -10,13 +9,13 @@ import (
     "regexp"
 )
 
-func Download(item reader.Item) error {
-    dirpath := "./" + item.Subject
-    err := os.MkdirAll(dirpath, 0755)
+func Download(m Misawa, rootdir string) error {
+    dir := rootdir + m.Subject
+    err := os.MkdirAll(dir, 0755)
     if err != nil {
         return err
     }
-    derr := download(item.ImageUrl, dirpath)
+    derr := download(m.ImageUrl, dir)
     if derr != nil {
         return derr
     }
