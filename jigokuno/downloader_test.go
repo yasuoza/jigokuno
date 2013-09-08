@@ -20,7 +20,7 @@ func TestExtractFileName(t *testing.T) {
 }
 
 func TestDownload(t *testing.T) {
-    xml, err := ioutil.ReadFile("./fixtures/rss.xml")
+    xml, err := ioutil.ReadFile("../fixtures/rss.xml")
     if err != nil {
         panic(err)
     }

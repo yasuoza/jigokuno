@@ -8,7 +8,7 @@ import (
 )
 
 func TestParseRSS(t *testing.T) {
-    xml, err := ioutil.ReadFile("./fixtures/rss.xml")
+    xml, err := ioutil.ReadFile("../fixtures/rss.xml")
     if err != nil {
         panic(err)
     }
