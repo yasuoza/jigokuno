@@ -60,13 +60,44 @@ func TestMemonize(t *testing.T) {
     }
 }
 
-func TestExtractImageUrl(t *testing.T) {
-    res, err := extractImageUrl(`\n<img src="http://jigokuno.img.jugem.jp/20130905_758371.gif" alt="渋谷の話したい人居ますか？居たら自由に話してもらってもいいですよ" class="pict" height="320" width="240"><br>\n`)
+func TestMisawaImageUrl(t *testing.T) {
+    m := &Misawa{
+        Content: `\n<img src="http://jigokuno.img.jugem.jp/20130905_758371.gif" alt="渋谷の話したい人居ますか？居たら自由に話してもらってもいいですよ" class="pict" height="320" width="240"><br>\n`,
+    }
+    res, err := m.ImageUrl()
     if err != nil {
-        t.Fatal("extractUrl failed")
+        t.Fatal("Misawa.ImageUrl failed")
     }
     if res != "http://jigokuno.img.jugem.jp/20130905_758371.gif" {
         t.Fatal("parsed url is invalid")
+    }
+}
+
+func TestMisawaImageFileName(t *testing.T) {
+    m := &Misawa{
+        Content: `\n<img src="http://jigokuno.img.jugem.jp/20130905_758371.gif" alt="渋谷の話したい人居ますか？居たら自由に話してもらってもいいですよ" class="pict" height="320" width="240"><br>\n`,
+    }
+    fname, err := m.ImageFileName()
+    if err != nil {
+        t.Fatal(err)
+    }
+    if fname != "20130905_758371.gif" {
+        t.Fatal("fname does not match 20130905_758371.gif")
+    }
+}
+
+func TestMisawaImageFilePath(t *testing.T) {
+    m := &Misawa{
+        Subject: "masa(34)",
+        Content: `\n<img src="http://jigokuno.img.jugem.jp/20130905_758371.gif" alt="渋谷の話したい人居ますか？居たら自由に話してもらってもいいですよ" class="pict" height="320" width="240"><br>\n`,
+    }
+
+    path, err := m.ImageFilePath()
+    if err != nil {
+        t.Fatal(err)
+    }
+    if path != "masa(34)/20130905_758371.gif" {
+        t.Fatal("fname does not match masa(34)/20130905_758371.gif")
     }
 }
 

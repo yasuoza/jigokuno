@@ -5,6 +5,7 @@ import (
     "errors"
     "io/ioutil"
     "os"
+    "path/filepath"
     "regexp"
     "time"
 )
@@ -20,7 +21,54 @@ type Misawa struct {
     Content string `xml:"encoded"`
     Subject string `xml:"subject"`
     Date time.Time `xml:"date"`
-    ImageUrl string
+
+    // For property caching
+    imageUrl string
+    imageFileName string
+    imageFilePath string
+}
+
+func (m *Misawa) ImageUrl() (string, error) {
+    if m.imageUrl != "" {
+        return m.imageUrl, nil
+    }
+    re := regexp.MustCompile(`<img\ssrc="([^"]+)"`)
+    caps := re.FindStringSubmatch(m.Content)
+    if len(caps) == 0 {
+        return "", errors.New("Can't parse argument string")
+    }
+    m.imageUrl = caps[1]
+    return caps[1], nil
+}
+
+func (m *Misawa) ImageFileName() (string, error) {
+    const fileSuffix = ".gif"
+    if m.imageFileName != "" {
+        return m.imageFileName, nil
+    }
+    re := regexp.MustCompile("([0-9_]+)" + fileSuffix + "$")
+    imageUrl, err := m.ImageUrl()
+    if err != nil {
+        return "", err
+    }
+    paths := re.FindStringSubmatch(imageUrl)
+    if len(paths) == 0 {
+        return "", errors.New("Can't extract filename")
+    }
+    m.imageFileName = paths[1]
+    return paths[1] + fileSuffix, nil
+}
+
+func (m *Misawa) ImageFilePath() (string, error) {
+    if m.imageFilePath != "" {
+        return m.imageFilePath, nil
+    }
+    image, err := m.ImageFileName()
+    if err != nil {
+        return "", err
+    }
+    m.imageFilePath = filepath.Join(m.Subject, image)
+    return m.imageFilePath, nil
 }
 
 type Result struct {
@@ -37,12 +85,10 @@ func ParseRSS(data []byte, since time.Time) ([]Misawa, error) {
         if !m.Date.After(since) {
             continue
         }
-        imageUrl, err := extractImageUrl(m.Content)
+        _, err := m.ImageUrl()
         if err != nil {
             return nil, errors.New("Failed parse")
-            continue;
         }
-        m.ImageUrl = imageUrl
         list = append(list, m)
     }
     return list, nil
@@ -75,13 +121,3 @@ func LoadLastDownloadedTime() (time.Time, error) {
     }
     return date, rerr
 }
-
-func extractImageUrl(s string) (string, error) {
-    re := regexp.MustCompile(`<img\ssrc="([^"]+)"`)
-    caps := re.FindStringSubmatch(s)
-    if len(caps) == 0 {
-        return "", errors.New("Can't parse argument string")
-    }
-    return caps[1], nil
-}
-
