@@ -8,6 +8,7 @@ import (
     "time"
     "flag"
     "os"
+    "path/filepath"
 )
 
 const (
@@ -18,6 +19,7 @@ var (
     all = flag.Bool("all", false, "download all misawa image")
     dest = flag.String("dest", "./", "download destination directory path")
     force = flag.Bool("force", false, "force download to dest")
+    quiet = flag.Bool("quiet", false, "quiet download output")
 )
 
 func main() {
@@ -59,11 +61,14 @@ func main() {
 
     mlen := len(items)
     done := make(chan bool, mlen)
+    var downloads []jigokuno.Misawa
     for i, m := range items {
         go func(gi int, gm jigokuno.Misawa) {
             err := jigokuno.Download(gm, *dest)
             if err != nil {
                 log.Println("Failed download ", gm.Title)
+            } else {
+                downloads = append(downloads, gm)
             }
             done <- true
         }(i, m)
@@ -74,6 +79,11 @@ func main() {
     if len(items) > 0 {
         jigokuno.Memonize(items[0].Date)
     }
-
+    if !*quiet {
+        for _, m := range downloads {
+            path, _ := m.ImageFilePath()
+            log.Println("Download", m.Title, "->", filepath.Join(*dest, path))
+        }
+    }
     log.Println("Downloaded", mlen, "misawa(s)")
 }
